@@ -27,7 +27,7 @@ namespace EpiasModels.Dam
             public DateTime date { get; set; }
             public string basinName { get; set; }
             public string damName { get; set; }
-            public double activeFullness { get; set; }
+            public double? activeFullness { get; set; }
         }
 
         public string getURL(string? basinName, string? damName)

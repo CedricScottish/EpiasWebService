@@ -26,23 +26,23 @@ namespace EpiasModels.Stp
             public int intraDayMatchingQuantityMin { get; set; }
             public int intraDayMatchingQuantityMax { get; set; }
             public int intraDayMatchingQuantitySum { get; set; }
-            public double intraDayMatchingQuantityAvg { get; set; }
+            public double? intraDayMatchingQuantityAvg { get; set; }
             public int dayAfterMatchingQuantityMin { get; set; }
             public int dayAfterMatchingQuantityMax { get; set; }
             public int dayAfterMatchingQuantitySum { get; set; }
-            public double dayAfterMatchingQuantityAvg { get; set; }
+            public double? dayAfterMatchingQuantityAvg { get; set; }
             public int dayAheadMatchingQuantityMin { get; set; }
             public int dayAheadMatchingQuantityMax { get; set; }
             public int dayAheadMatchingQuantitySum { get; set; }
-            public double dayAheadMatchingQuantityAvg { get; set; }
+            public double? dayAheadMatchingQuantityAvg { get; set; }
             public int gasReferenceMatchingQuantityMin { get; set; }
             public int gasReferenceMatchingQuantityMax { get; set; }
             public int gasReferenceMatchingQuantitySum { get; set; }
-            public double gasReferenceMatchingQuantityAvg { get; set; }
+            public double? gasReferenceMatchingQuantityAvg { get; set; }
             public int gasDayMatchingQuantityMin { get; set; }
             public int gasDayMatchingQuantityMax { get; set; }
             public int gasDayMatchingQuantitySum { get; set; }
-            public double gasDayMatchingQuantityAvg { get; set; }
+            public double? gasDayMatchingQuantityAvg { get; set; }
         }
 
         public class Matchingdto

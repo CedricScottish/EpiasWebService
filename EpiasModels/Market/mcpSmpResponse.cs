@@ -26,8 +26,8 @@ namespace EpiasModels.Market
         public class Mcpsmp
         {
             public DateTime date { get; set; }
-            public double mcp { get; set; }
-            public double smp { get; set; }
+            public double? mcp { get; set; }
+            public double? smp { get; set; }
             public string smpDirection { get; set; }
             public string mcpState { get; set; }
         }
@@ -35,14 +35,14 @@ namespace EpiasModels.Market
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double mcpMin { get; set; }
+            public double? mcpMin { get; set; }
             public int mcpMax { get; set; }
-            public double mcpAvg { get; set; }
-            public double mcpWeightedAverage { get; set; }
-            public double smpMin { get; set; }
+            public double? mcpAvg { get; set; }
+            public double? mcpWeightedAverage { get; set; }
+            public double? smpMin { get; set; }
             public int smpMax { get; set; }
-            public double smpAvg { get; set; }
-            public double smpWeightedAverage { get; set; }
+            public double? smpAvg { get; set; }
+            public double? smpWeightedAverage { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

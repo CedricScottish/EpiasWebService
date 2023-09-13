@@ -27,27 +27,27 @@ namespace EpiasModels.Market
             public int originatingFromBidsMin { get; set; }
             public int originatingFromBidsMax { get; set; }
             public int originatingFromBidsSum { get; set; }
-            public double originatingFromOffersAvg { get; set; }
-            public double originatingFromOffersMin { get; set; }
-            public double originatingFromOffersMax { get; set; }
-            public double originatingFromOffersSum { get; set; }
-            public double originatingFromRoundingAvg { get; set; }
-            public double originatingFromRoundingMin { get; set; }
-            public double originatingFromRoundingMax { get; set; }
-            public double originatingFromRoundingSum { get; set; }
-            public double totalAvg { get; set; }
-            public double totalMin { get; set; }
-            public double totalMax { get; set; }
-            public double totalSum { get; set; }
+            public double? originatingFromOffersAvg { get; set; }
+            public double? originatingFromOffersMin { get; set; }
+            public double? originatingFromOffersMax { get; set; }
+            public double? originatingFromOffersSum { get; set; }
+            public double? originatingFromRoundingAvg { get; set; }
+            public double? originatingFromRoundingMin { get; set; }
+            public double? originatingFromRoundingMax { get; set; }
+            public double? originatingFromRoundingSum { get; set; }
+            public double? totalAvg { get; set; }
+            public double? totalMin { get; set; }
+            public double? totalMax { get; set; }
+            public double? totalSum { get; set; }
         }
 
         public class Difffundlist
         {
             public DateTime date { get; set; }
             public int originatingFromBids { get; set; }
-            public double originatingFromOffers { get; set; }
-            public double originatingFromRounding { get; set; }
-            public double total { get; set; }
+            public double? originatingFromOffers { get; set; }
+            public double? originatingFromRounding { get; set; }
+            public double? total { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge)

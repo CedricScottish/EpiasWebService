@@ -24,8 +24,8 @@ namespace EpiasModels.Consumption
         public class Stlist
         {
             public Id id { get; set; }
-            public double quantityOfUsingEligibleConsumer { get; set; }
-            public double quantityOfNotUsingEligibleConsumer { get; set; }
+            public double? quantityOfUsingEligibleConsumer { get; set; }
+            public double? quantityOfNotUsingEligibleConsumer { get; set; }
             public int stCount { get; set; }
         }
 

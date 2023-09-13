@@ -27,21 +27,21 @@ namespace EpiasModels.Compare
         {
             public int period { get; set; }
             public DateTime date { get; set; }
-            public double mcpAvg { get; set; }
-            public double smpAvg { get; set; }
-            public double maxMcp { get; set; }
-            public double minMcp { get; set; }
-            public double dayTimeMcp { get; set; }
-            public double peakTimeMcp { get; set; }
-            public double nightTimeMcp { get; set; }
-            public double priceIndependentBid { get; set; }
-            public double priceIndependentOffer { get; set; }
-            public double matchingQuantity { get; set; }
-            public double bilateralContracts { get; set; }
-            public double idmMatchingQuantity { get; set; }
-            public double consumptionAvg { get; set; }
-            public double consumptionSum { get; set; }
-            public double idmAof { get; set; }
+            public double? mcpAvg { get; set; }
+            public double? smpAvg { get; set; }
+            public double? maxMcp { get; set; }
+            public double? minMcp { get; set; }
+            public double? dayTimeMcp { get; set; }
+            public double? peakTimeMcp { get; set; }
+            public double? nightTimeMcp { get; set; }
+            public double? priceIndependentBid { get; set; }
+            public double? priceIndependentOffer { get; set; }
+            public double? matchingQuantity { get; set; }
+            public double? bilateralContracts { get; set; }
+            public double? idmMatchingQuantity { get; set; }
+            public double? consumptionAvg { get; set; }
+            public double? consumptionSum { get; set; }
+            public double? idmAof { get; set; }
         }
 
 

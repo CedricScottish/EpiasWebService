@@ -24,12 +24,12 @@ namespace EpiasModels
         public class Marketcompare
         {
             public DateTime date { get; set; }
-            public double mcpAvg { get; set; }
-            public double smpAvg { get; set; }
+            public double? mcpAvg { get; set; }
+            public double? smpAvg { get; set; }
             public int idmAofAvg { get; set; }
-            public double matchingQuantityAvg { get; set; }
-            public double bilateralContractsAvg { get; set; }
-            public double idmMatchingQuantitySum { get; set; }
+            public double? matchingQuantityAvg { get; set; }
+            public double? bilateralContractsAvg { get; set; }
+            public double? idmMatchingQuantitySum { get; set; }
         }
 
 

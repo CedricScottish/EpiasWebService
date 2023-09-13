@@ -68,12 +68,12 @@ namespace EpiasModels.Stp
             public int dayAfterMatchingQuantity { get; set; }
             public int dayAheadTradeValue { get; set; }
             public int dayAheadMatchingQuantity { get; set; }
-            public double weightedAverage { get; set; }
+            public double? weightedAverage { get; set; }
             public int gasReferenceMatchingQuantity { get; set; }
             public int gasReferenceTradeValue { get; set; }
             public object intraDayPrice { get; set; }
-            public double dayAfterPrice { get; set; }
-            public double dayAheadPrice { get; set; }
+            public double? dayAfterPrice { get; set; }
+            public double? dayAheadPrice { get; set; }
         }
         public string getURL(DateTime startDate, DateTime endDate)
         {

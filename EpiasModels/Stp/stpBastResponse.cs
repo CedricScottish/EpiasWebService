@@ -24,15 +24,15 @@ namespace EpiasModels.Stp
 
         public class Statistics
         {
-            public double zeroBalanceSum { get; set; }
-            public double zeroBalanceMin { get; set; }
-            public double zeroBalanceMax { get; set; }
+            public double? zeroBalanceSum { get; set; }
+            public double? zeroBalanceMin { get; set; }
+            public double? zeroBalanceMax { get; set; }
         }
 
         public class Zerobalance
         {
             public DateTime gasDay { get; set; }
-            public double zeroBalance { get; set; }
+            public double? zeroBalance { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

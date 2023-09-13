@@ -25,7 +25,7 @@ namespace EpiasModels.Market
         {
             public DateTime effectiveDate { get; set; }
             public int hour { get; set; }
-            public double totalAmount { get; set; }
+            public double? totalAmount { get; set; }
         }
 
 

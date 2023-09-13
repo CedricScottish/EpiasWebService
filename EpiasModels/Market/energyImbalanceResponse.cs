@@ -27,31 +27,31 @@ namespace EpiasModels.Market
         public class Energyimbalance
         {
             public DateTime date { get; set; }
-            public double positiveImbalance { get; set; }
-            public double negativeImbalance { get; set; }
-            public double positiveImbalanceIncome { get; set; }
-            public double negativeImbalanceIncome { get; set; }
+            public double? positiveImbalance { get; set; }
+            public double? negativeImbalance { get; set; }
+            public double? positiveImbalanceIncome { get; set; }
+            public double? negativeImbalanceIncome { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double positiveImbalanceAvg { get; set; }
-            public double positiveImbalanceMin { get; set; }
-            public double positiveImbalanceMax { get; set; }
-            public double positiveImbalanceSum { get; set; }
-            public double negativeImbalanceAvg { get; set; }
-            public double negativeImbalanceMin { get; set; }
-            public double negativeImbalanceMax { get; set; }
-            public double negativeImbalanceSum { get; set; }
-            public double positiveImbalanceIncomeAvg { get; set; }
-            public double positiveImbalanceIncomeMin { get; set; }
-            public double positiveImbalanceIncomeMax { get; set; }
-            public double positiveImbalanceIncomeSum { get; set; }
-            public double negativeImbalanceIncomeAvg { get; set; }
-            public double negativeImbalanceIncomeMin { get; set; }
-            public double negativeImbalanceIncomeMax { get; set; }
-            public double negativeImbalanceIncomeSum { get; set; }
+            public double? positiveImbalanceAvg { get; set; }
+            public double? positiveImbalanceMin { get; set; }
+            public double? positiveImbalanceMax { get; set; }
+            public double? positiveImbalanceSum { get; set; }
+            public double? negativeImbalanceAvg { get; set; }
+            public double? negativeImbalanceMin { get; set; }
+            public double? negativeImbalanceMax { get; set; }
+            public double? negativeImbalanceSum { get; set; }
+            public double? positiveImbalanceIncomeAvg { get; set; }
+            public double? positiveImbalanceIncomeMin { get; set; }
+            public double? positiveImbalanceIncomeMax { get; set; }
+            public double? positiveImbalanceIncomeSum { get; set; }
+            public double? negativeImbalanceIncomeAvg { get; set; }
+            public double? negativeImbalanceIncomeMin { get; set; }
+            public double? negativeImbalanceIncomeMax { get; set; }
+            public double? negativeImbalanceIncomeSum { get; set; }
         }
 
         public string getURLHourly(DateTime startDate, DateTime endDate)

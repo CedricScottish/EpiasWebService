@@ -41,31 +41,31 @@ namespace EpiasModels.Vep
             public DateTime date { get; set; }
             public int marketMatchingQuantityMin { get; set; }
             public int marketMatchingQuantityMax { get; set; }
-            public double marketMatchingQuantityAvg { get; set; }
+            public double? marketMatchingQuantityAvg { get; set; }
             public int marketMatchingQuantitySum { get; set; }
             public int privateOperationQuantityMin { get; set; }
             public int privateOperationQuantityMax { get; set; }
-            public double privateOperationQuantityAvg { get; set; }
+            public double? privateOperationQuantityAvg { get; set; }
             public int privateOperationQuantitySum { get; set; }
             public int dailyIndexPriceBiddingQuantityMin { get; set; }
             public int dailyIndexPriceBiddingQuantityMax { get; set; }
-            public double dailyIndexPriceBiddingQuantityAvg { get; set; }
+            public double? dailyIndexPriceBiddingQuantityAvg { get; set; }
             public int dailyIndexPriceBiddingQuantitySum { get; set; }
             public int basePriceBiddingQuantityMin { get; set; }
             public int basePriceBiddingQuantityMax { get; set; }
-            public double basePriceBiddingQuantityAvg { get; set; }
+            public double? basePriceBiddingQuantityAvg { get; set; }
             public int basePriceBiddingQuantitySum { get; set; }
             public int defaultBiddingQuantityMin { get; set; }
             public int defaultBiddingQuantityMax { get; set; }
-            public double defaultBiddingQuantityAvg { get; set; }
+            public double? defaultBiddingQuantityAvg { get; set; }
             public int defaultBiddingQuantitySum { get; set; }
             public int syntheticBuyMatchingQuantityMin { get; set; }
             public int syntheticBuyMatchingQuantityMax { get; set; }
-            public double syntheticBuyMatchingQuantityAvg { get; set; }
+            public double? syntheticBuyMatchingQuantityAvg { get; set; }
             public int syntheticBuyMatchingQuantitySum { get; set; }
             public int syntheticSellMatchingQuantityMin { get; set; }
             public int syntheticSellMatchingQuantityMax { get; set; }
-            public double syntheticSellMatchingQuantityAvg { get; set; }
+            public double? syntheticSellMatchingQuantityAvg { get; set; }
             public int syntheticSellMatchingQuantitySum { get; set; }
         }
         public string getURL(DateTime startDate, DateTime endDate, string? deliveryPeriod, string? year, string? loadType)

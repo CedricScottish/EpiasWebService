@@ -25,16 +25,16 @@ namespace EpiasModels.Consumption
         public class Hourlyconsumption
         {
             public DateTime date { get; set; }
-            public double consumption { get; set; }
+            public double? consumption { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double consumptionAvg { get; set; }
-            public double consumptionMin { get; set; }
-            public double consumptionMax { get; set; }
-            public double consumptionSum { get; set; }
+            public double? consumptionAvg { get; set; }
+            public double? consumptionMin { get; set; }
+            public double? consumptionMax { get; set; }
+            public double? consumptionSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

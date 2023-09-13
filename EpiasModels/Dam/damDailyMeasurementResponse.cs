@@ -32,9 +32,9 @@ namespace EpiasModels.Dam
             public DateTime date { get; set; }
             public int damId { get; set; }
             public string damName { get; set; }
-            public double kot { get; set; }
-            public double volume { get; set; }
-            public double energyGeneration { get; set; }
+            public double? kot { get; set; }
+            public double? volume { get; set; }
+            public double? energyGeneration { get; set; }
             public string basinName { get; set; }
             public object createIp { get; set; }
             public object modifyIp { get; set; }

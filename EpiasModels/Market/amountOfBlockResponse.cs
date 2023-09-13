@@ -24,31 +24,31 @@ namespace EpiasModels.Market
         public class Amountofblocklist
         {
             public DateTime date { get; set; }
-            public double amountOfPurchasingTowardsBlock { get; set; }
-            public double amountOfPurchasingTowardsMatchBlock { get; set; }
-            public double amountOfSalesTowardsBlock { get; set; }
-            public double amountOfSalesTowardsMatchBlock { get; set; }
+            public double? amountOfPurchasingTowardsBlock { get; set; }
+            public double? amountOfPurchasingTowardsMatchBlock { get; set; }
+            public double? amountOfSalesTowardsBlock { get; set; }
+            public double? amountOfSalesTowardsMatchBlock { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double amountOfPurchasingTowardsBlockAvg { get; set; }
-            public double amountOfPurchasingTowardsBlockMin { get; set; }
-            public double amountOfPurchasingTowardsBlockMax { get; set; }
-            public double amountOfPurchasingTowardsBlockSum { get; set; }
-            public double amountOfPurchasingTowardsMatchBlockAvg { get; set; }
-            public double amountOfPurchasingTowardsMatchBlockMin { get; set; }
-            public double amountOfPurchasingTowardsMatchBlockMax { get; set; }
-            public double amountOfPurchasingTowardsMatchBlockSum { get; set; }
-            public double amountOfSalesTowardsBlockAvg { get; set; }
-            public double amountOfSalesTowardsBlockMin { get; set; }
-            public double amountOfSalesTowardsBlockMax { get; set; }
-            public double amountOfSalesTowardsBlockSum { get; set; }
-            public double amountOfSalesTowardsMatchBlockAvg { get; set; }
-            public double amountOfSalesTowardsMatchBlockMin { get; set; }
-            public double amountOfSalesTowardsMatchBlockMax { get; set; }
-            public double amountOfSalesTowardsMatchBlockSum { get; set; }
+            public double? amountOfPurchasingTowardsBlockAvg { get; set; }
+            public double? amountOfPurchasingTowardsBlockMin { get; set; }
+            public double? amountOfPurchasingTowardsBlockMax { get; set; }
+            public double? amountOfPurchasingTowardsBlockSum { get; set; }
+            public double? amountOfPurchasingTowardsMatchBlockAvg { get; set; }
+            public double? amountOfPurchasingTowardsMatchBlockMin { get; set; }
+            public double? amountOfPurchasingTowardsMatchBlockMax { get; set; }
+            public double? amountOfPurchasingTowardsMatchBlockSum { get; set; }
+            public double? amountOfSalesTowardsBlockAvg { get; set; }
+            public double? amountOfSalesTowardsBlockMin { get; set; }
+            public double? amountOfSalesTowardsBlockMax { get; set; }
+            public double? amountOfSalesTowardsBlockSum { get; set; }
+            public double? amountOfSalesTowardsMatchBlockAvg { get; set; }
+            public double? amountOfSalesTowardsMatchBlockMin { get; set; }
+            public double? amountOfSalesTowardsMatchBlockMax { get; set; }
+            public double? amountOfSalesTowardsMatchBlockSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

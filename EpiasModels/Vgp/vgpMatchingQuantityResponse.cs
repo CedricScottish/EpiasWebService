@@ -32,7 +32,7 @@ namespace EpiasModels.Vgp
             public DateTime date { get; set; }
             public int marketMatchingQuantityMin { get; set; }
             public int marketMatchingQuantityMax { get; set; }
-            public double marketMatchingQuantityAvg { get; set; }
+            public double? marketMatchingQuantityAvg { get; set; }
             public int marketMatchingQuantitySum { get; set; }
         }
 

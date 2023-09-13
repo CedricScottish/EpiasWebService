@@ -23,9 +23,9 @@ namespace EpiasModels.Production
         public class Gddkamountlist
         {
             public Id id { get; set; }
-            public double gddkDebtAmount { get; set; }
-            public double gddkCreditAmount { get; set; }
-            public double gddkNetAmount { get; set; }
+            public double? gddkDebtAmount { get; set; }
+            public double? gddkCreditAmount { get; set; }
+            public double? gddkNetAmount { get; set; }
         }
 
         public class Id

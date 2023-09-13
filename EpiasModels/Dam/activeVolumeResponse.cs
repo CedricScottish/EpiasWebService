@@ -26,7 +26,7 @@ namespace EpiasModels.Dam
             public DateTime date { get; set; }
             public string basinName { get; set; }
             public string damName { get; set; }
-            public double activeVolume { get; set; }
+            public double? activeVolume { get; set; }
         }
 
 

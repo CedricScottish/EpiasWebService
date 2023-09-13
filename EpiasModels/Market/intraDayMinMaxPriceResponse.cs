@@ -26,11 +26,11 @@ namespace EpiasModels.Market
         {
             public DateTime date { get; set; }
             public int minAskPrice { get; set; }
-            public double maxAskPrice { get; set; }
-            public double minBidPrice { get; set; }
+            public double? maxAskPrice { get; set; }
+            public double? minBidPrice { get; set; }
             public int maxBidPrice { get; set; }
-            public double minMatchPrice { get; set; }
-            public double maxMatchPrice { get; set; }
+            public double? minMatchPrice { get; set; }
+            public double? maxMatchPrice { get; set; }
         }
 
         public class Statistic
@@ -38,15 +38,15 @@ namespace EpiasModels.Market
             public DateTime date { get; set; }
             public int minAskPriceMin { get; set; }
             public int minAskPriceMax { get; set; }
-            public double maxAskPriceMin { get; set; }
+            public double? maxAskPriceMin { get; set; }
             public int maxAskPriceMax { get; set; }
             public int minBidPriceMin { get; set; }
-            public double minBidPriceMax { get; set; }
+            public double? minBidPriceMax { get; set; }
             public int maxBidPriceMin { get; set; }
             public int maxBidPriceMax { get; set; }
             public int minMatchPriceMin { get; set; }
             public int minMatchPriceMax { get; set; }
-            public double maxMatchPriceMin { get; set; }
+            public double? maxMatchPriceMin { get; set; }
             public int maxMatchPriceMax { get; set; }
         }
 

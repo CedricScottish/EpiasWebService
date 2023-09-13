@@ -24,9 +24,9 @@ namespace EpiasModels.Market
         public class Supplydemandcurve
         {
             public DateTime date { get; set; }
-            public double price { get; set; }
-            public double supply { get; set; }
-            public double demand { get; set; }
+            public double? price { get; set; }
+            public double? supply { get; set; }
+            public double? demand { get; set; }
         }
 
 

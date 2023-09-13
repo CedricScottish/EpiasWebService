@@ -24,31 +24,31 @@ namespace EpiasModels.Market
         public class Offerquantity
         {
             public DateTime effectiveDate { get; set; }
-            public double hourlyPurchaseQuantity { get; set; }
-            public double hourlySaleQuantity { get; set; }
-            public double blockPurchaseQuantity { get; set; }
-            public double blockSaleQuantity { get; set; }
+            public double? hourlyPurchaseQuantity { get; set; }
+            public double? hourlySaleQuantity { get; set; }
+            public double? blockPurchaseQuantity { get; set; }
+            public double? blockSaleQuantity { get; set; }
         }
 
         public class Statistic
         {
             public DateTime effectiveDate { get; set; }
-            public double hourlyPurchaseQuantityMin { get; set; }
-            public double hourlyPurchaseQuantityMax { get; set; }
-            public double hourlyPurchaseQuantityAvg { get; set; }
-            public double hourlyPurchaseQuantitySum { get; set; }
-            public double hourlySaleQuantityMin { get; set; }
-            public double hourlySaleQuantityMax { get; set; }
-            public double hourlySaleQuantityAvg { get; set; }
-            public double hourlySaleQuantitySum { get; set; }
-            public double blockPurchaseQuantityMin { get; set; }
-            public double blockPurchaseQuantityMax { get; set; }
-            public double blockPurchaseQuantityAvg { get; set; }
-            public double blockPurchaseQuantitySum { get; set; }
-            public double blockSaleQuantityMin { get; set; }
-            public double blockSaleQuantityMax { get; set; }
-            public double blockSaleQuantityAvg { get; set; }
-            public double blockSaleQuantitySum { get; set; }
+            public double? hourlyPurchaseQuantityMin { get; set; }
+            public double? hourlyPurchaseQuantityMax { get; set; }
+            public double? hourlyPurchaseQuantityAvg { get; set; }
+            public double? hourlyPurchaseQuantitySum { get; set; }
+            public double? hourlySaleQuantityMin { get; set; }
+            public double? hourlySaleQuantityMax { get; set; }
+            public double? hourlySaleQuantityAvg { get; set; }
+            public double? hourlySaleQuantitySum { get; set; }
+            public double? blockPurchaseQuantityMin { get; set; }
+            public double? blockPurchaseQuantityMax { get; set; }
+            public double? blockPurchaseQuantityAvg { get; set; }
+            public double? blockPurchaseQuantitySum { get; set; }
+            public double? blockSaleQuantityMin { get; set; }
+            public double? blockSaleQuantityMax { get; set; }
+            public double? blockSaleQuantityAvg { get; set; }
+            public double? blockSaleQuantitySum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

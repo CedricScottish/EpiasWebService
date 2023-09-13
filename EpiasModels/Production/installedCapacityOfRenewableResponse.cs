@@ -28,20 +28,20 @@ namespace EpiasModels.Production
             public int capacityTypeId { get; set; }
             public DateTime period { get; set; }
             public string capacityType { get; set; }
-            public double capacity { get; set; }
+            public double? capacity { get; set; }
         }
 
         public class Statistic
         {
             public object period { get; set; }
-            public double totalCapacity { get; set; }
+            public double? totalCapacity { get; set; }
         }
 
         public class Ratio
         {
             public int capacityTypeId { get; set; }
             public string capacityType { get; set; }
-            public double capacity { get; set; }
+            public double? capacity { get; set; }
         }
 
         public string getURL(DateTime period)

@@ -27,9 +27,9 @@ namespace EpiasModels.Market
             public int totalBuyingFlexibleOfferQuantity { get; set; }
             public int matchedBuyingFlexibleOfferQuantity { get; set; }
             public int unmatchedBuyingFlexibleOfferQuantity { get; set; }
-            public double totalSellingFlexibleOfferQuantity { get; set; }
+            public double? totalSellingFlexibleOfferQuantity { get; set; }
             public int matchedSellingFlexibleOfferQuantity { get; set; }
-            public double unmatchedSellingFlexibleOfferQuantity { get; set; }
+            public double? unmatchedSellingFlexibleOfferQuantity { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

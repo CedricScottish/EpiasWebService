@@ -25,26 +25,26 @@ namespace EpiasModels.Vgp
         {
             public DateTime date { get; set; }
             public string contractName { get; set; }
-            public double price { get; set; }
-            public double priceUsd { get; set; }
-            public double priceEur { get; set; }
+            public double? price { get; set; }
+            public double? priceUsd { get; set; }
+            public double? priceEur { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double ggfTLMin { get; set; }
-            public double ggfTLMax { get; set; }
-            public double ggfTLAvg { get; set; }
-            public double ggfTLSum { get; set; }
-            public double ggfUSDMin { get; set; }
-            public double ggfUSDMax { get; set; }
-            public double ggfUSDAvg { get; set; }
-            public double ggfUSDSum { get; set; }
-            public double ggfEURMin { get; set; }
-            public double ggfEURMax { get; set; }
-            public double ggfEURAvg { get; set; }
-            public double ggfEURSum { get; set; }
+            public double? ggfTLMin { get; set; }
+            public double? ggfTLMax { get; set; }
+            public double? ggfTLAvg { get; set; }
+            public double? ggfTLSum { get; set; }
+            public double? ggfUSDMin { get; set; }
+            public double? ggfUSDMax { get; set; }
+            public double? ggfUSDAvg { get; set; }
+            public double? ggfUSDSum { get; set; }
+            public double? ggfEURMin { get; set; }
+            public double? ggfEURMax { get; set; }
+            public double? ggfEURAvg { get; set; }
+            public double? ggfEURSum { get; set; }
         }
 
 

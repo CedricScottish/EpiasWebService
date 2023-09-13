@@ -25,66 +25,66 @@ namespace EpiasModels.Production
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double windAvg { get; set; }
-            public double windMin { get; set; }
-            public double windMax { get; set; }
-            public double windSum { get; set; }
-            public double geothermalAvg { get; set; }
-            public double geothermalMin { get; set; }
-            public double geothermalMax { get; set; }
-            public double geothermalSum { get; set; }
-            public double reservoirAvg { get; set; }
-            public double reservoirMin { get; set; }
-            public double reservoirMax { get; set; }
-            public double reservoirSum { get; set; }
-            public double canalTypeAvg { get; set; }
-            public double canalTypeMin { get; set; }
-            public double canalTypeMax { get; set; }
-            public double canalTypeSum { get; set; }
-            public double riverTypeAvg { get; set; }
-            public double riverTypeMin { get; set; }
-            public double riverTypeMax { get; set; }
-            public double riverTypeSum { get; set; }
-            public double landfillGasAvg { get; set; }
-            public double landfillGasMin { get; set; }
-            public double landfillGasMax { get; set; }
-            public double landfillGasSum { get; set; }
-            public double biogasAvg { get; set; }
-            public double biogasMin { get; set; }
-            public double biogasMax { get; set; }
-            public double biogasSum { get; set; }
-            public double sunAvg { get; set; }
+            public double? windAvg { get; set; }
+            public double? windMin { get; set; }
+            public double? windMax { get; set; }
+            public double? windSum { get; set; }
+            public double? geothermalAvg { get; set; }
+            public double? geothermalMin { get; set; }
+            public double? geothermalMax { get; set; }
+            public double? geothermalSum { get; set; }
+            public double? reservoirAvg { get; set; }
+            public double? reservoirMin { get; set; }
+            public double? reservoirMax { get; set; }
+            public double? reservoirSum { get; set; }
+            public double? canalTypeAvg { get; set; }
+            public double? canalTypeMin { get; set; }
+            public double? canalTypeMax { get; set; }
+            public double? canalTypeSum { get; set; }
+            public double? riverTypeAvg { get; set; }
+            public double? riverTypeMin { get; set; }
+            public double? riverTypeMax { get; set; }
+            public double? riverTypeSum { get; set; }
+            public double? landfillGasAvg { get; set; }
+            public double? landfillGasMin { get; set; }
+            public double? landfillGasMax { get; set; }
+            public double? landfillGasSum { get; set; }
+            public double? biogasAvg { get; set; }
+            public double? biogasMin { get; set; }
+            public double? biogasMax { get; set; }
+            public double? biogasSum { get; set; }
+            public double? sunAvg { get; set; }
             public int sunMin { get; set; }
-            public double sunMax { get; set; }
-            public double sunSum { get; set; }
-            public double biomassAvg { get; set; }
-            public double biomassMin { get; set; }
-            public double biomassMax { get; set; }
-            public double biomassSum { get; set; }
-            public double totalAvg { get; set; }
-            public double totalMin { get; set; }
-            public double totalMax { get; set; }
-            public double totalSum { get; set; }
-            public double othersAvg { get; set; }
-            public double othersMin { get; set; }
-            public double othersMax { get; set; }
-            public double othersSum { get; set; }
+            public double? sunMax { get; set; }
+            public double? sunSum { get; set; }
+            public double? biomassAvg { get; set; }
+            public double? biomassMin { get; set; }
+            public double? biomassMax { get; set; }
+            public double? biomassSum { get; set; }
+            public double? totalAvg { get; set; }
+            public double? totalMin { get; set; }
+            public double? totalMax { get; set; }
+            public double? totalSum { get; set; }
+            public double? othersAvg { get; set; }
+            public double? othersMin { get; set; }
+            public double? othersMax { get; set; }
+            public double? othersSum { get; set; }
         }
 
         public class Renewablesmproductionlist
         {
             public DateTime date { get; set; }
-            public double wind { get; set; }
-            public double geothermal { get; set; }
-            public double biogas { get; set; }
-            public double canalType { get; set; }
-            public double riverType { get; set; }
-            public double biomass { get; set; }
-            public double landfillGas { get; set; }
-            public double sun { get; set; }
-            public double reservoir { get; set; }
-            public double others { get; set; }
-            public double total { get; set; }
+            public double? wind { get; set; }
+            public double? geothermal { get; set; }
+            public double? biogas { get; set; }
+            public double? canalType { get; set; }
+            public double? riverType { get; set; }
+            public double? biomass { get; set; }
+            public double? landfillGas { get; set; }
+            public double? sun { get; set; }
+            public double? reservoir { get; set; }
+            public double? others { get; set; }
+            public double? total { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge)

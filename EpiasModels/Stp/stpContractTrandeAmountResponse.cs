@@ -24,7 +24,7 @@ namespace EpiasModels.Stp
         public class Contracttradeamount
         {
             public DateTime gasDay { get; set; }
-            public double tradeValue { get; set; }
+            public double? tradeValue { get; set; }
             public int matchingQuantity { get; set; }
             public int period { get; set; }
             public string periodType { get; set; }
@@ -35,11 +35,11 @@ namespace EpiasModels.Stp
             public DateTime gasDay { get; set; }
             public int tradeValueMin { get; set; }
             public int tradeValueMax { get; set; }
-            public double tradeValueAvg { get; set; }
-            public double tradeValueSum { get; set; }
+            public double? tradeValueAvg { get; set; }
+            public double? tradeValueSum { get; set; }
             public int matchingQuantityMin { get; set; }
             public int matchingQuantityMax { get; set; }
-            public double matchingQuantityAvg { get; set; }
+            public double? matchingQuantityAvg { get; set; }
             public int matchingQuantitySum { get; set; }
         }
 

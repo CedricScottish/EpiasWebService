@@ -24,25 +24,25 @@ namespace EpiasModels.Transmission
         public class Zerobalance
         {
             public DateTime date { get; set; }
-            public double zeroBalanceAdjustment { get; set; }
-            public double downRegulation { get; set; }
-            public double upRegulation { get; set; }
+            public double? zeroBalanceAdjustment { get; set; }
+            public double? downRegulation { get; set; }
+            public double? upRegulation { get; set; }
             public object manual { get; set; }
-            public double negativeImbalance { get; set; }
+            public double? negativeImbalance { get; set; }
             public int renewableImbalance { get; set; }
-            public double kupst { get; set; }
+            public double? kupst { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double totalAvg { get; set; }
-            public double downRegulationAvg { get; set; }
-            public double upRegulationAvg { get; set; }
+            public double? totalAvg { get; set; }
+            public double? downRegulationAvg { get; set; }
+            public double? upRegulationAvg { get; set; }
             public int manuelAvg { get; set; }
-            public double energtImbalanceCostAvg { get; set; }
+            public double? energtImbalanceCostAvg { get; set; }
             public int renewablesEnergyImbalanceCostAvg { get; set; }
-            public double kupstAvg { get; set; }
+            public double? kupstAvg { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

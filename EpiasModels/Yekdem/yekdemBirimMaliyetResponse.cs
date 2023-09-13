@@ -24,7 +24,7 @@ namespace EpiasModels.Yekdem
         public class Datalist
         {
             public DateTime donem { get; set; }
-            public double birimMaliyet { get; set; }
+            public double? birimMaliyet { get; set; }
             public DateTime version { get; set; }
         }
         public string getURL(DateTime startDate, DateTime endDate)

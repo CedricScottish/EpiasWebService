@@ -24,7 +24,7 @@ namespace EpiasModels.Stp
         public class Price
         {
             public DateTime gasDay { get; set; }
-            public double price { get; set; }
+            public double? price { get; set; }
             public int period { get; set; }
             public string periodType { get; set; }
         }
@@ -32,9 +32,9 @@ namespace EpiasModels.Stp
         public class Statistic
         {
             public DateTime gasDay { get; set; }
-            public double avgPrice { get; set; }
-            public double minPrice { get; set; }
-            public double maxPrice { get; set; }
+            public double? avgPrice { get; set; }
+            public double? minPrice { get; set; }
+            public double? maxPrice { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, definitionValues.period period)

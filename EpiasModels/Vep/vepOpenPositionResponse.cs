@@ -33,7 +33,7 @@ namespace EpiasModels.Vep
             public DateTime date { get; set; }
             public int openPositionMin { get; set; }
             public int openPositionMax { get; set; }
-            public double openPositionAvg { get; set; }
+            public double? openPositionAvg { get; set; }
             public int openPositionSum { get; set; }
         }
         public string getURL(DateTime startDate, DateTime endDate, string? deliveryPeriod, string? year, string? loadType)

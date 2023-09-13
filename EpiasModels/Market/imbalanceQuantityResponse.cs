@@ -24,8 +24,8 @@ namespace EpiasModels.Market
         {
             public DateTime date { get; set; }
             public string time { get; set; }
-            public double positiveImbalance { get; set; }
-            public double negativeImbalance { get; set; }
+            public double? positiveImbalance { get; set; }
+            public double? negativeImbalance { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge)

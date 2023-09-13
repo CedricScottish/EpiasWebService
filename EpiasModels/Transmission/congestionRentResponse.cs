@@ -25,12 +25,12 @@ namespace EpiasModels.Transmission
         {
             public int cityId { get; set; }
             public string cityName { get; set; }
-            public double mcpCost { get; set; }
-            public double smpCost { get; set; }
+            public double? mcpCost { get; set; }
+            public double? smpCost { get; set; }
             public int orderCount { get; set; }
             public int upRegulationOrderCount { get; set; }
-            public double downRegulationOrderCount { get; set; }
-            public double totalOrderCount { get; set; }
+            public double? downRegulationOrderCount { get; set; }
+            public double? totalOrderCount { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge, definitionValues.orderType? orderType)

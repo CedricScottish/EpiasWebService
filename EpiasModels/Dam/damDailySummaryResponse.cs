@@ -26,11 +26,11 @@ namespace EpiasModels.Dam
             public string damName { get; set; }
             public string basinName { get; set; }
             public DateTime date { get; set; }
-            public double kot { get; set; }
-            public double activeFullness { get; set; }
-            public double dailyVolume { get; set; }
-            public double activeVolume { get; set; }
-            public double energyGeneration { get; set; }
+            public double? kot { get; set; }
+            public double? activeFullness { get; set; }
+            public double? dailyVolume { get; set; }
+            public double? activeVolume { get; set; }
+            public double? energyGeneration { get; set; }
         }
 
 

@@ -28,10 +28,10 @@ namespace EpiasModels.Stp
             public int amountMin { get; set; }
             public int amountMax { get; set; }
             public int amountSum { get; set; }
-            public double amountAvg { get; set; }
-            public double weightedAverageAvg { get; set; }
-            public double weightedAverageMin { get; set; }
-            public double weightedAverageMax { get; set; }
+            public double? amountAvg { get; set; }
+            public double? weightedAverageAvg { get; set; }
+            public double? weightedAverageMin { get; set; }
+            public double? weightedAverageMax { get; set; }
         }
 
         public class Operation
@@ -41,7 +41,7 @@ namespace EpiasModels.Stp
             public DateTime transactionDate { get; set; }
             public string contractName { get; set; }
             public int amount { get; set; }
-            public double weightedAverage { get; set; }
+            public double? weightedAverage { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

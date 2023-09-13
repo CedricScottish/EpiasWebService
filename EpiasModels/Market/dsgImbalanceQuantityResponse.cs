@@ -24,8 +24,8 @@ namespace EpiasModels.Market
         public class Imbalancequantitylist
         {
             public DateTime date { get; set; }
-            public double positiveImbalanceQuantity { get; set; }
-            public double negativImbalanceQuantity { get; set; }
+            public double? positiveImbalanceQuantity { get; set; }
+            public double? negativImbalanceQuantity { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? eic, int? organizationId)

@@ -22,7 +22,7 @@ namespace EpiasModels.Market
 
         public class Frequencyreservepricelist
         {
-            public double price { get; set; }
+            public double? price { get; set; }
             public DateTime effectiveDate { get; set; }
             public int hour { get; set; }
         }

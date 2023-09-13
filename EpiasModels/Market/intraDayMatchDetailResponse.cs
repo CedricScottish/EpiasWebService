@@ -27,21 +27,21 @@ namespace EpiasModels.Market
         public class Matchdetail
         {
             public DateTime date { get; set; }
-            public double blockMatchQuantity { get; set; }
-            public double hourlyMatchQuantity { get; set; }
+            public double? blockMatchQuantity { get; set; }
+            public double? hourlyMatchQuantity { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double avgBlockMatchQuantity { get; set; }
-            public double avgHourlyMatchQuantity { get; set; }
-            public double minBlockMatchQuantity { get; set; }
+            public double? avgBlockMatchQuantity { get; set; }
+            public double? avgHourlyMatchQuantity { get; set; }
+            public double? minBlockMatchQuantity { get; set; }
             public int minHourlyMatchQuantity { get; set; }
-            public double maxBlockMatchQuantity { get; set; }
-            public double maxHourlyMatchQuantity { get; set; }
-            public double sumBlockMatchQuantity { get; set; }
-            public double sumHourlyMatchQuantity { get; set; }
+            public double? maxBlockMatchQuantity { get; set; }
+            public double? maxHourlyMatchQuantity { get; set; }
+            public double? sumBlockMatchQuantity { get; set; }
+            public double? sumHourlyMatchQuantity { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

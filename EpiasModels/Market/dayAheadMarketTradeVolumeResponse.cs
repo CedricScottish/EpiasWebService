@@ -25,18 +25,18 @@ namespace EpiasModels.Market
         public class Dayaheadmarkettradevolumelist
         {
             public DateTime date { get; set; }
-            public double volumeOfBid { get; set; }
-            public double volumeOfAsk { get; set; }
+            public double? volumeOfBid { get; set; }
+            public double? volumeOfAsk { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double min { get; set; }
-            public double max { get; set; }
-            public double average { get; set; }
+            public double? min { get; set; }
+            public double? max { get; set; }
+            public double? average { get; set; }
             public object weightedAverage { get; set; }
-            public double summary { get; set; }
+            public double? summary { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

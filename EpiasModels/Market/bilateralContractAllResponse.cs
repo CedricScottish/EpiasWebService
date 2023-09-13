@@ -24,21 +24,21 @@ namespace EpiasModels.Market
         public class Bilateralcontract
         {
             public DateTime date { get; set; }
-            public double quantityBid { get; set; }
-            public double quantityBidAsk { get; set; }
+            public double? quantityBid { get; set; }
+            public double? quantityBidAsk { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double quantityBidAvg { get; set; }
-            public double quantityBidMin { get; set; }
-            public double quantityBidMax { get; set; }
-            public double quantityBidSum { get; set; }
-            public double quantityBidAskAvg { get; set; }
-            public double quantityBidAskMin { get; set; }
-            public double quantityBidAskMax { get; set; }
-            public double quantityBidAskSum { get; set; }
+            public double? quantityBidAvg { get; set; }
+            public double? quantityBidMin { get; set; }
+            public double? quantityBidMax { get; set; }
+            public double? quantityBidSum { get; set; }
+            public double? quantityBidAskAvg { get; set; }
+            public double? quantityBidAskMin { get; set; }
+            public double? quantityBidAskMax { get; set; }
+            public double? quantityBidAskSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? eic)

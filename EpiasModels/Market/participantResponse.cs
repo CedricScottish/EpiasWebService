@@ -37,7 +37,7 @@ namespace EpiasModels.Market
         {
             public string licence { get; set; }
             public int licenceId { get; set; }
-            public double ratio { get; set; }
+            public double? ratio { get; set; }
         }
 
         public string getURL(DateTime period)

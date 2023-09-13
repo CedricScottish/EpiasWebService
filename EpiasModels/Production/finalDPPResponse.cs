@@ -23,7 +23,7 @@ namespace EpiasModels.Production
         public class Finaldpplist
         {
             public DateTime date { get; set; }
-            public double dpp { get; set; }
+            public double? dpp { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

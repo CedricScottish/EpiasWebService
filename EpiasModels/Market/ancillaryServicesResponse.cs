@@ -34,22 +34,22 @@ namespace EpiasModels.Market
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double pfcPriceAvg { get; set; }
-            public double pfcPriceMin { get; set; }
-            public double pfcPriceMax { get; set; }
-            public double pfcPriceSum { get; set; }
-            public double pfcAmountAvg { get; set; }
-            public double pfcAmountMin { get; set; }
-            public double pfcAmountMax { get; set; }
-            public double pfcAmountSum { get; set; }
-            public double sfcPriceAvg { get; set; }
-            public double sfcPriceMin { get; set; }
-            public double sfcPriceMax { get; set; }
-            public double sfcPriceSum { get; set; }
-            public double sfcAmountAvg { get; set; }
-            public double sfcAmountMin { get; set; }
-            public double sfcAmountMax { get; set; }
-            public double sfcAmountSum { get; set; }
+            public double? pfcPriceAvg { get; set; }
+            public double? pfcPriceMin { get; set; }
+            public double? pfcPriceMax { get; set; }
+            public double? pfcPriceSum { get; set; }
+            public double? pfcAmountAvg { get; set; }
+            public double? pfcAmountMin { get; set; }
+            public double? pfcAmountMax { get; set; }
+            public double? pfcAmountSum { get; set; }
+            public double? sfcPriceAvg { get; set; }
+            public double? sfcPriceMin { get; set; }
+            public double? sfcPriceMax { get; set; }
+            public double? sfcPriceSum { get; set; }
+            public double? sfcAmountAvg { get; set; }
+            public double? sfcAmountMin { get; set; }
+            public double? sfcAmountMax { get; set; }
+            public double? sfcAmountSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

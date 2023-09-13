@@ -26,10 +26,10 @@ namespace EpiasModels.Market
             public DateTime startDate { get; set; }
             public DateTime endDate { get; set; }
             public int gopAzamiFiyat { get; set; }
-            public double dogalGaz { get; set; }
-            public double ithalKomur { get; set; }
-            public double yerliKomur { get; set; }
-            public double diger { get; set; }
+            public double? dogalGaz { get; set; }
+            public double? ithalKomur { get; set; }
+            public double? yerliKomur { get; set; }
+            public double? diger { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

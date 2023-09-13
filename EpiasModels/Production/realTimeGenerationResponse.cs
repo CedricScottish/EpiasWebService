@@ -27,17 +27,17 @@ namespace EpiasModels.Production
         {
             public DateTime date { get; set; }
             public int period { get; set; }
-            public double generation { get; set; }
+            public double? generation { get; set; }
             public object periodType { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double generationAvg { get; set; }
-            public double generationMin { get; set; }
-            public double generationMax { get; set; }
-            public double generationSum { get; set; }
+            public double? generationAvg { get; set; }
+            public double? generationMin { get; set; }
+            public double? generationMax { get; set; }
+            public double? generationSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, definitionValues.source source, definitionValues.period? period, int? powerPlantId)

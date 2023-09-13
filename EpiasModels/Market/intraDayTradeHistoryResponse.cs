@@ -28,14 +28,14 @@ namespace EpiasModels.Market
             public long id { get; set; }
             public DateTime date { get; set; }
             public string conract { get; set; }
-            public double price { get; set; }
+            public double? price { get; set; }
             public int quantity { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double priceWeightedAverage { get; set; }
+            public double? priceWeightedAverage { get; set; }
             public int priceMin { get; set; }
             public int priceMax { get; set; }
             public int quantityMin { get; set; }

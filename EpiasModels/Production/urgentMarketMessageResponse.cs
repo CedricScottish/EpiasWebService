@@ -30,11 +30,11 @@ namespace EpiasModels.Production
             public string powerPlantName { get; set; }
             public int messageType { get; set; }
             public string region { get; set; }
-            public double capacityAtCaseTime { get; set; }
+            public double? capacityAtCaseTime { get; set; }
             public object caseVaguenessTime { get; set; }
             public int validityStatus { get; set; }
             public string reason { get; set; }
-            public double operatorPower { get; set; }
+            public double? operatorPower { get; set; }
             public string uevcbName { get; set; }
             public string fuelType { get; set; }
             public int fuelTypeId { get; set; }
@@ -47,11 +47,11 @@ namespace EpiasModels.Production
         public class Faultdetail
         {
             public int hour { get; set; }
-            public double remainingCapacity { get; set; }
+            public double? remainingCapacity { get; set; }
             public DateTime date { get; set; }
-            public double preFaultPower { get; set; }
-            public double faultCausedPowerLoss { get; set; }
-            public double faultCausedEnergyLoss { get; set; }
+            public double? preFaultPower { get; set; }
+            public double? faultCausedPowerLoss { get; set; }
+            public double? faultCausedEnergyLoss { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, definitionValues.messageTypeId? messageTypeId, string? organizationEIC, int? regionId, int? uevcbId)

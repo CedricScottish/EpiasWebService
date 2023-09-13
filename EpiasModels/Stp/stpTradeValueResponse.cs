@@ -27,23 +27,23 @@ namespace EpiasModels.Stp
             public int intraDayTradeValueMin { get; set; }
             public int intraDayTradeValueMax { get; set; }
             public int intraDayTradeValueSum { get; set; }
-            public double intraDayTradeValueAvg { get; set; }
+            public double? intraDayTradeValueAvg { get; set; }
             public int dayAfterTradeValueMin { get; set; }
             public int dayAfterTradeValueMax { get; set; }
             public int dayAfterTradeValueSum { get; set; }
-            public double dayAfterTradeValueAvg { get; set; }
+            public double? dayAfterTradeValueAvg { get; set; }
             public int dayAheadTradeValueMin { get; set; }
             public int dayAheadTradeValueMax { get; set; }
             public int dayAheadTradeValueSum { get; set; }
-            public double dayAheadTradeValueAvg { get; set; }
+            public double? dayAheadTradeValueAvg { get; set; }
             public int gasReferenceTradeValueMin { get; set; }
             public int gasReferenceTradeValueMax { get; set; }
             public int gasReferenceTradeValueSum { get; set; }
-            public double gasReferenceTradeValueAvg { get; set; }
+            public double? gasReferenceTradeValueAvg { get; set; }
             public int contractTradeValueMin { get; set; }
             public int contractTradeValueMax { get; set; }
             public int contractTradeValueSum { get; set; }
-            public double contractTradeValueAvg { get; set; }
+            public double? contractTradeValueAvg { get; set; }
         }
 
         public class Tradevalue

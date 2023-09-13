@@ -24,15 +24,15 @@ namespace EpiasModels.Market
         public class Bpmordersummarylist
         {
             public DateTime date { get; set; }
-            public double net { get; set; }
-            public double upRegulationZeroCoded { get; set; }
+            public double? net { get; set; }
+            public double? upRegulationZeroCoded { get; set; }
             public int upRegulationOneCoded { get; set; }
             public int upRegulationTwoCoded { get; set; }
-            public double downRegulationZeroCoded { get; set; }
+            public double? downRegulationZeroCoded { get; set; }
             public int downRegulationOneCoded { get; set; }
             public int downRegulationTwoCoded { get; set; }
-            public double upRegulationDelivered { get; set; }
-            public double downRegulationDelivered { get; set; }
+            public double? upRegulationDelivered { get; set; }
+            public double? downRegulationDelivered { get; set; }
             public string direction { get; set; }
             public DateTime nextHour { get; set; }
         }
@@ -40,12 +40,12 @@ namespace EpiasModels.Market
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double netMin { get; set; }
-            public double netMax { get; set; }
-            public double netTotal { get; set; }
+            public double? netMin { get; set; }
+            public double? netMax { get; set; }
+            public double? netTotal { get; set; }
             public int upRegulationZeroCodedMin { get; set; }
-            public double upRegulationZeroCodedMax { get; set; }
-            public double upRegulationZeroCodedTotal { get; set; }
+            public double? upRegulationZeroCodedMax { get; set; }
+            public double? upRegulationZeroCodedTotal { get; set; }
             public int upRegulationOneCodedMin { get; set; }
             public int upRegulationOneCodedMax { get; set; }
             public int upRegulationOneCodedTotal { get; set; }
@@ -53,8 +53,8 @@ namespace EpiasModels.Market
             public int upRegulationTwoCodedMax { get; set; }
             public int upRegulationTwoCodedTotal { get; set; }
             public int downRegulationZeroCodedMin { get; set; }
-            public double downRegulationZeroCodedMax { get; set; }
-            public double downRegulationZeroCodedTotal { get; set; }
+            public double? downRegulationZeroCodedMax { get; set; }
+            public double? downRegulationZeroCodedTotal { get; set; }
             public int downRegulationOneCodedMin { get; set; }
             public int downRegulationOneCodedMax { get; set; }
             public int downRegulationOneCodedTotal { get; set; }
@@ -62,11 +62,11 @@ namespace EpiasModels.Market
             public int downRegulationTwoCodedMax { get; set; }
             public int downRegulationTwoCodedTotal { get; set; }
             public int upRegulationDeliveredMin { get; set; }
-            public double upRegulationDeliveredMax { get; set; }
-            public double upRegulationDeliveredTotal { get; set; }
-            public double downRegulationDeliveredMin { get; set; }
+            public double? upRegulationDeliveredMax { get; set; }
+            public double? upRegulationDeliveredTotal { get; set; }
+            public double? downRegulationDeliveredMin { get; set; }
             public int downRegulationDeliveredMax { get; set; }
-            public double downRegulationDeliveredTotal { get; set; }
+            public double? downRegulationDeliveredTotal { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge)

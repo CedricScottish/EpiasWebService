@@ -28,10 +28,10 @@ namespace EpiasModels.Stp
             public int additionalBalancingPurchaseMax { get; set; }
             public object additionalBalancingSaleMin { get; set; }
             public object additionalBalancingSaleMax { get; set; }
-            public double balancingGasPurchaseMin { get; set; }
-            public double balancingGasPurchaseMax { get; set; }
-            public double balancingGasSaleMin { get; set; }
-            public double balancingGasSaleMax { get; set; }
+            public double? balancingGasPurchaseMin { get; set; }
+            public double? balancingGasPurchaseMax { get; set; }
+            public double? balancingGasSaleMin { get; set; }
+            public double? balancingGasSaleMax { get; set; }
         }
 
         public class Price
@@ -41,9 +41,9 @@ namespace EpiasModels.Stp
             public bool finalAbp { get; set; }
             public object additionalBalancingSale { get; set; }
             public bool finalAbs { get; set; }
-            public double balancingGasPurchase { get; set; }
+            public double? balancingGasPurchase { get; set; }
             public bool finalBgp { get; set; }
-            public double balancingGasSale { get; set; }
+            public double? balancingGasSale { get; set; }
             public bool finalBgs { get; set; }
         }
 

@@ -27,19 +27,19 @@ namespace EpiasModels.Stp
             public int hiihMin { get; set; }
             public int hiihMax { get; set; }
             public int hiihSum { get; set; }
-            public double hiihAvg { get; set; }
+            public double? hiihAvg { get; set; }
             public int hsihMin { get; set; }
             public int hsihMax { get; set; }
             public int hsihSum { get; set; }
-            public double hsihAvg { get; set; }
+            public double? hsihAvg { get; set; }
             public int htihMin { get; set; }
             public int htihMax { get; set; }
             public int htihSum { get; set; }
-            public double htihAvg { get; set; }
+            public double? htihAvg { get; set; }
             public int ihTotalMin { get; set; }
             public int ihTotalMax { get; set; }
             public int ihTotalSum { get; set; }
-            public double ihTotalAvg { get; set; }
+            public double? ihTotalAvg { get; set; }
         }
 
         public class Stpweeklymatchlist

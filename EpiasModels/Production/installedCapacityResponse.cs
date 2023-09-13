@@ -24,7 +24,7 @@ namespace EpiasModels.Production
         {
             public DateTime period { get; set; }
             public string capacityType { get; set; }
-            public double capacity { get; set; }
+            public double? capacity { get; set; }
         }
 
         public string getURL(DateTime period)

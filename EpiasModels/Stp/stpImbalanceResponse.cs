@@ -24,26 +24,26 @@ namespace EpiasModels.Stp
 
         public class Statistics
         {
-            public double negativeImbalanceMin { get; set; }
-            public double negativeImbalanceMax { get; set; }
-            public double negativeImbalanceSum { get; set; }
-            public double positiveImbalanceMin { get; set; }
-            public double positiveImbalanceMax { get; set; }
-            public double positiveImbalanceSum { get; set; }
-            public double negativeImbalanceTradeValueMin { get; set; }
-            public double negativeImbalanceTradeValueMax { get; set; }
-            public double negativeImbalanceTradeValueSum { get; set; }
-            public double positiveImbalanceTradeValueMin { get; set; }
-            public double positiveImbalanceTradeValueMax { get; set; }
-            public double positiveImbalanceTradeValueSum { get; set; }
+            public double? negativeImbalanceMin { get; set; }
+            public double? negativeImbalanceMax { get; set; }
+            public double? negativeImbalanceSum { get; set; }
+            public double? positiveImbalanceMin { get; set; }
+            public double? positiveImbalanceMax { get; set; }
+            public double? positiveImbalanceSum { get; set; }
+            public double? negativeImbalanceTradeValueMin { get; set; }
+            public double? negativeImbalanceTradeValueMax { get; set; }
+            public double? negativeImbalanceTradeValueSum { get; set; }
+            public double? positiveImbalanceTradeValueMin { get; set; }
+            public double? positiveImbalanceTradeValueMax { get; set; }
+            public double? positiveImbalanceTradeValueSum { get; set; }
         }
 
         public class Imbalance
         {
             public DateTime period { get; set; }
             public string type { get; set; }
-            public double negativeImbalance { get; set; }
-            public double positiveImbalance { get; set; }
+            public double? negativeImbalance { get; set; }
+            public double? positiveImbalance { get; set; }
             public double? negativeImbalanceTradeValue { get; set; }
             public double? positiveImbalanceTradeValue { get; set; }
         }

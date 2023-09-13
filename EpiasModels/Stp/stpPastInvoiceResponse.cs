@@ -24,8 +24,8 @@ namespace EpiasModels.Stp
         {
             public DateTime period { get; set; }
             public DateTime version { get; set; }
-            public double debt { get; set; }
-            public double credit { get; set; }
+            public double? debt { get; set; }
+            public double? credit { get; set; }
         }
 
 

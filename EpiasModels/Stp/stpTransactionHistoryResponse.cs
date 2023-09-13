@@ -24,12 +24,12 @@ namespace EpiasModels.Stp
         public class Statistics
         {
             public int priceMin { get; set; }
-            public double priceMax { get; set; }
-            public double priceAvg { get; set; }
+            public double? priceMax { get; set; }
+            public double? priceAvg { get; set; }
             public int quantityMin { get; set; }
             public int quantityMax { get; set; }
             public int quantitySum { get; set; }
-            public double quantityAvg { get; set; }
+            public double? quantityAvg { get; set; }
         }
 
         public class Transactionhistory
@@ -37,7 +37,7 @@ namespace EpiasModels.Stp
             public string id { get; set; }
             public string contractName { get; set; }
             public DateTime mathcingDate { get; set; }
-            public double price { get; set; }
+            public double? price { get; set; }
             public int quantity { get; set; }
         }
         public string getURL(DateTime startDate, DateTime endDate)

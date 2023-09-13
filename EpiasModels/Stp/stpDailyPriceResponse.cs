@@ -24,15 +24,15 @@ namespace EpiasModels.Stp
 
         public class Statistics
         {
-            public double intraDayPriceMin { get; set; }
-            public double intraDayPriceMax { get; set; }
-            public double dayAfterPriceMin { get; set; }
-            public double dayAfterPriceMax { get; set; }
-            public double dayAheadPriceMin { get; set; }
-            public double dayAheadPriceMax { get; set; }
-            public double weightedAverageMin { get; set; }
-            public double weightedAverageMax { get; set; }
-            public double gasReferencePriceMin { get; set; }
+            public double? intraDayPriceMin { get; set; }
+            public double? intraDayPriceMax { get; set; }
+            public double? dayAfterPriceMin { get; set; }
+            public double? dayAfterPriceMax { get; set; }
+            public double? dayAheadPriceMin { get; set; }
+            public double? dayAheadPriceMax { get; set; }
+            public double? weightedAverageMin { get; set; }
+            public double? weightedAverageMax { get; set; }
+            public double? gasReferencePriceMin { get; set; }
             public int gasReferencePriceMax { get; set; }
         }
 
@@ -41,10 +41,10 @@ namespace EpiasModels.Stp
             public DateTime gasDay { get; set; }
             public string contractName { get; set; }
             public double? intraDayPrice { get; set; }
-            public double dayAfterPrice { get; set; }
-            public double dayAheadPrice { get; set; }
-            public double weightedAverage { get; set; }
-            public double gasReferencePrice { get; set; }
+            public double? dayAfterPrice { get; set; }
+            public double? dayAheadPrice { get; set; }
+            public double? weightedAverage { get; set; }
+            public double? gasReferencePrice { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

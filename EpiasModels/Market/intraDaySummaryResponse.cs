@@ -30,11 +30,11 @@ namespace EpiasModels.Market
             public DateTime date { get; set; }
             public string contract { get; set; }
             public double? volume { get; set; }
-            public double minAskPrice { get; set; }
-            public double maxAskPrice { get; set; }
+            public double? minAskPrice { get; set; }
+            public double? maxAskPrice { get; set; }
             public double? minBidPrice { get; set; }
             public double? maxBidPrice { get; set; }
-            public double quantityOfAsk { get; set; }
+            public double? quantityOfAsk { get; set; }
             public double? quantityOfBid { get; set; }
             public double? tradingVolume { get; set; }
             public double? minMatchPrice { get; set; }
@@ -44,10 +44,10 @@ namespace EpiasModels.Market
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double volumeAvg { get; set; }
-            public double volumeMin { get; set; }
-            public double volumeMax { get; set; }
-            public double volumeSum { get; set; }
+            public double? volumeAvg { get; set; }
+            public double? volumeMin { get; set; }
+            public double? volumeMax { get; set; }
+            public double? volumeSum { get; set; }
             public int minAskPriceMin { get; set; }
             public int minAskPriceMax { get; set; }
             public int maxAskPriceMin { get; set; }
@@ -56,21 +56,21 @@ namespace EpiasModels.Market
             public int minBidPriceMax { get; set; }
             public int maxBidPriceMin { get; set; }
             public int maxBidPriceMax { get; set; }
-            public double quantityOfAskAvg { get; set; }
-            public double quantityOfAskMin { get; set; }
-            public double quantityOfAskMax { get; set; }
-            public double quantityOfAskSum { get; set; }
-            public double quantityOfBidAvg { get; set; }
-            public double quantityOfBidMin { get; set; }
-            public double quantityOfBidMax { get; set; }
-            public double quantityOfBidSum { get; set; }
-            public double tradingVolumeAvg { get; set; }
+            public double? quantityOfAskAvg { get; set; }
+            public double? quantityOfAskMin { get; set; }
+            public double? quantityOfAskMax { get; set; }
+            public double? quantityOfAskSum { get; set; }
+            public double? quantityOfBidAvg { get; set; }
+            public double? quantityOfBidMin { get; set; }
+            public double? quantityOfBidMax { get; set; }
+            public double? quantityOfBidSum { get; set; }
+            public double? tradingVolumeAvg { get; set; }
             public int tradingVolumeMin { get; set; }
-            public double tradingVolumeMax { get; set; }
-            public double tradingVolumeSum { get; set; }
+            public double? tradingVolumeMax { get; set; }
+            public double? tradingVolumeSum { get; set; }
             public int minMatchPriceMin { get; set; }
             public int minMatchPriceMax { get; set; }
-            public double maxMatchPriceMin { get; set; }
+            public double? maxMatchPriceMin { get; set; }
             public int maxMatchPriceMax { get; set; }
         }
 

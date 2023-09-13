@@ -26,17 +26,17 @@ namespace EpiasModels.Consumption
         {
             public DateTime date { get; set; }
             public int period { get; set; }
-            public double consumption { get; set; }
+            public double? consumption { get; set; }
             public string periodType { get; set; }
         }
 
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double consumptionAvg { get; set; }
-            public double consumptionMin { get; set; }
-            public double consumptionMax { get; set; }
-            public double consumptionSum { get; set; }
+            public double? consumptionAvg { get; set; }
+            public double? consumptionMin { get; set; }
+            public double? consumptionMax { get; set; }
+            public double? consumptionSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, definitionValues.period period)

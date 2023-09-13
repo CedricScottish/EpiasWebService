@@ -30,10 +30,10 @@ namespace EpiasModels.Dam
             public int? turbineNumber { get; set; }
             public double? coordx { get; set; }
             public double? coordy { get; set; }
-            public double maxOperationVolume { get; set; }
-            public double minOperationVolume { get; set; }
-            public double maxOperationKot { get; set; }
-            public double minOperationKot { get; set; }
+            public double? maxOperationVolume { get; set; }
+            public double? minOperationVolume { get; set; }
+            public double? maxOperationKot { get; set; }
+            public double? minOperationKot { get; set; }
             public double? installedPower { get; set; }
             public double? unitFlowRate { get; set; }
         }

@@ -31,7 +31,7 @@ namespace EpiasModels.Consumption
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double lepAvg { get; set; }
+            public double? lepAvg { get; set; }
             public int lepMin { get; set; }
             public int lepMax { get; set; }
             public int lepSum { get; set; }

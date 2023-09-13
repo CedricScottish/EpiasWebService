@@ -23,16 +23,16 @@ namespace EpiasModels.Consumption
 
         public class Statistic
         {
-            public double swvMin { get; set; }
-            public double swvMax { get; set; }
-            public double swvAvg { get; set; }
-            public double swvSum { get; set; }
+            public double? swvMin { get; set; }
+            public double? swvMax { get; set; }
+            public double? swvAvg { get; set; }
+            public double? swvSum { get; set; }
         }
 
         public class Swvlist
         {
             public DateTime date { get; set; }
-            public double swv { get; set; }
+            public double? swv { get; set; }
         }
 
 

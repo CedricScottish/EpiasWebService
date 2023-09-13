@@ -24,7 +24,7 @@ namespace EpiasModels.Market
         public class Interimmcplist
         {
             public DateTime date { get; set; }
-            public double marketTradePrice { get; set; }
+            public double? marketTradePrice { get; set; }
         }
 
         public string getURL(DateTime date)

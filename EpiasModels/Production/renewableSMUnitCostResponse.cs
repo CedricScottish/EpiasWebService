@@ -23,8 +23,8 @@ namespace EpiasModels.Production
         public class Renewablesmunitcostlist
         {
             public Id id { get; set; }
-            public double unitCost { get; set; }
-            public double supplierUnitCost { get; set; }
+            public double? unitCost { get; set; }
+            public double? supplierUnitCost { get; set; }
         }
 
         public class Id

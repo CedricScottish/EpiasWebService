@@ -36,11 +36,11 @@ namespace EpiasModels.Stp
             public int tradeVolumeMin { get; set; }
             public int tradeVolumeMax { get; set; }
             public int tradeVolumeSum { get; set; }
-            public double tradeVolumeAvg { get; set; }
+            public double? tradeVolumeAvg { get; set; }
             public int totalMatchAmountMin { get; set; }
             public int totalMatchAmountMax { get; set; }
             public int totalMatchAmountSum { get; set; }
-            public double totalMatchAmountAvg { get; set; }
+            public double? totalMatchAmountAvg { get; set; }
         }
 
 

@@ -24,31 +24,31 @@ namespace EpiasModels.Production
         public class Renewablessupport
         {
             public DateTime period { get; set; }
-            public double unitCost { get; set; }
-            public double reneablesCost { get; set; }
-            public double renewablesTotalCost { get; set; }
-            public double licenseExemptCost { get; set; }
-            public double portfolioIncome { get; set; }
+            public double? unitCost { get; set; }
+            public double? reneablesCost { get; set; }
+            public double? renewablesTotalCost { get; set; }
+            public double? licenseExemptCost { get; set; }
+            public double? portfolioIncome { get; set; }
         }
 
         public class Statistic
         {
             public DateTime period { get; set; }
-            public double unitCostAvg { get; set; }
-            public double unitCostMin { get; set; }
-            public double unitCostMax { get; set; }
-            public double reneablesCostAvg { get; set; }
-            public double reneablesCostMin { get; set; }
-            public double reneablesCostMax { get; set; }
-            public double renewablesTotalCostAvg { get; set; }
-            public double renewablesTotalCostMin { get; set; }
-            public double renewablesTotalCostMax { get; set; }
-            public double licenseExemptCostAvg { get; set; }
-            public double licenseExemptCostMin { get; set; }
-            public double licenseExemptCostMax { get; set; }
-            public double portfolioIncomeAvg { get; set; }
-            public double portfolioIncomeMin { get; set; }
-            public double portfolioIncomeMax { get; set; }
+            public double? unitCostAvg { get; set; }
+            public double? unitCostMin { get; set; }
+            public double? unitCostMax { get; set; }
+            public double? reneablesCostAvg { get; set; }
+            public double? reneablesCostMin { get; set; }
+            public double? reneablesCostMax { get; set; }
+            public double? renewablesTotalCostAvg { get; set; }
+            public double? renewablesTotalCostMin { get; set; }
+            public double? renewablesTotalCostMax { get; set; }
+            public double? licenseExemptCostAvg { get; set; }
+            public double? licenseExemptCostMin { get; set; }
+            public double? licenseExemptCostMax { get; set; }
+            public double? portfolioIncomeAvg { get; set; }
+            public double? portfolioIncomeMin { get; set; }
+            public double? portfolioIncomeMax { get; set; }
         }
 
 

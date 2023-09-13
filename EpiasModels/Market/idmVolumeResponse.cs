@@ -25,7 +25,7 @@ namespace EpiasModels.Market
         {
             public DateTime date { get; set; }
             public int period { get; set; }
-            public double volume { get; set; }
+            public double? volume { get; set; }
             public string periodType { get; set; }
         }
 

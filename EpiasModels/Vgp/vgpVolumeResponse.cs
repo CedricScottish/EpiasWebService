@@ -33,7 +33,7 @@ namespace EpiasModels.Vgp
             public DateTime date { get; set; }
             public int volumeMin { get; set; }
             public int volumeMax { get; set; }
-            public double volumeAvg { get; set; }
+            public double? volumeAvg { get; set; }
             public int volumeSum { get; set; }
         }
 

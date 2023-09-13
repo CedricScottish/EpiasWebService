@@ -24,13 +24,13 @@ namespace EpiasModels.Production
         public class Renewableunlicencedgenerationamountlist
         {
             public DateTime date { get; set; }
-            public double total { get; set; }
-            public double wind { get; set; }
-            public double biogas { get; set; }
-            public double canalType { get; set; }
-            public double biomass { get; set; }
-            public double sun { get; set; }
-            public double others { get; set; }
+            public double? total { get; set; }
+            public double? wind { get; set; }
+            public double? biogas { get; set; }
+            public double? canalType { get; set; }
+            public double? biomass { get; set; }
+            public double? sun { get; set; }
+            public double? others { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? bolge)

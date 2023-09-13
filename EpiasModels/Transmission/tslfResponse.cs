@@ -23,8 +23,8 @@ namespace EpiasModels.Transmission
         public class Transmissionsystemlossfactorlist
         {
             public DateTime date { get; set; }
-            public double firstVersionValue { get; set; }
-            public double lastVersionValue { get; set; }
+            public double? firstVersionValue { get; set; }
+            public double? lastVersionValue { get; set; }
             public DateTime firstVersionDate { get; set; }
             public DateTime lastVersionDate { get; set; }
         }

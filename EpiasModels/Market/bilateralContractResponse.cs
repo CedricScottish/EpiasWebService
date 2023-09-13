@@ -23,7 +23,7 @@ namespace EpiasModels.Market
         public class Bilateralcontractlist
         {
             public DateTime date { get; set; }
-            public double quantity { get; set; }
+            public double? quantity { get; set; }
             public DateTime nextHour { get; set; }
         }
 

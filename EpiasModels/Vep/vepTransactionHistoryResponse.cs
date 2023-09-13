@@ -37,11 +37,11 @@ namespace EpiasModels.Vep
             public DateTime date { get; set; }
             public int matchingPriceMin { get; set; }
             public int matchingPriceMax { get; set; }
-            public double matchingPriceAvg { get; set; }
+            public double? matchingPriceAvg { get; set; }
             public int matchingPriceSum { get; set; }
             public int matchingQuantityMin { get; set; }
             public int matchingQuantityMax { get; set; }
-            public double matchingQuantityAvg { get; set; }
+            public double? matchingQuantityAvg { get; set; }
             public int matchingQuantitySum { get; set; }
         }
 

@@ -24,7 +24,7 @@ namespace EpiasModels.Consumption
         public class Swvv2list
         {
             public DateTime vcGecTrh { get; set; }
-            public double st { get; set; }
+            public double? st { get; set; }
         }
 
         public string getURLSwv2(DateTime period)

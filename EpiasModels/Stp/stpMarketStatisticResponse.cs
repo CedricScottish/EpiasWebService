@@ -26,7 +26,7 @@ namespace EpiasModels.Stp
             public DateTime gasDay { get; set; }
             public string contractName { get; set; }
             public int lastMatchPrice { get; set; }
-            public double weightedAveragePrice { get; set; }
+            public double? weightedAveragePrice { get; set; }
             public int totalQuantity { get; set; }
         }
 

@@ -25,9 +25,9 @@ namespace EpiasModels.Stp
         {
             public DateTime gasDay { get; set; }
             public int imbalance { get; set; }
-            public double gasReferencePrice { get; set; }
-            public double balancingGasPurchase { get; set; }
-            public double balancingGasSale { get; set; }
+            public double? gasReferencePrice { get; set; }
+            public double? balancingGasPurchase { get; set; }
+            public double? balancingGasSale { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)

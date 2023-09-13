@@ -22,7 +22,7 @@ namespace EpiasModels.Market
         public class Bilateralcontractbuylist
         {
             public DateTime date { get; set; }
-            public double quantity { get; set; }
+            public double? quantity { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate, string? eic)

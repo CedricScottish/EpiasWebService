@@ -24,9 +24,9 @@ namespace EpiasModels.Yekg
         public class Datalist
         {
             public Id id { get; set; }
-            public double aofTl { get; set; }
-            public double aofUsd { get; set; }
-            public double aofEur { get; set; }
+            public double? aofTl { get; set; }
+            public double? aofUsd { get; set; }
+            public double? aofEur { get; set; }
         }
 
         public class Id
@@ -38,18 +38,18 @@ namespace EpiasModels.Yekg
         public class Statistic
         {
             public DateTime date { get; set; }
-            public double aofTlAvg { get; set; }
-            public double aofTlMin { get; set; }
-            public double aofTlMax { get; set; }
-            public double aofTlSum { get; set; }
-            public double aofUsdAvg { get; set; }
-            public double aofUsdMin { get; set; }
-            public double aofUsdMax { get; set; }
-            public double aofUsdSum { get; set; }
-            public double aofEurAvg { get; set; }
-            public double aofEurMin { get; set; }
-            public double aofEurMax { get; set; }
-            public double aofEurSum { get; set; }
+            public double? aofTlAvg { get; set; }
+            public double? aofTlMin { get; set; }
+            public double? aofTlMax { get; set; }
+            public double? aofTlSum { get; set; }
+            public double? aofUsdAvg { get; set; }
+            public double? aofUsdMin { get; set; }
+            public double? aofUsdMax { get; set; }
+            public double? aofUsdSum { get; set; }
+            public double? aofEurAvg { get; set; }
+            public double? aofEurMin { get; set; }
+            public double? aofEurMax { get; set; }
+            public double? aofEurSum { get; set; }
         }
 
         public string getURL(DateTime startDate, DateTime endDate)
